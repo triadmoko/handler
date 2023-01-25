@@ -1,6 +1,8 @@
 package main
 
+import "github.com/triadmoko/handler/logs"
 
-func main()  {
-	
+func main() {
+	logs.NewLogger("./logs/logger.log", true)
+
 }
